@@ -12,9 +12,10 @@ public class PlayerController : MonoBehaviour
     public GameObject headSprite;
     public GameObject flagSprite;
 
+
     public GameObject flagPrefab;
     public float throwVelocity;
-    bool hasFlag = false;
+    public bool hasFlag = false;
     public KeyCode jump;
     public KeyCode left;
     public KeyCode right;
